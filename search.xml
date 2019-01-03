@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F01%2F02%2Fhello-world2%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[Hexo+NexT搭建Github Pages个人博客]]></title>
+    <url>%2F2019%2F01%2F02%2FHexo%2BNexT%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[Hexo+NexT搭建Github Pages个人博客 之前搭建的一些web服务一直用的是阿里云9.9元/月的云服务器学生优惠（基础配置，原价100多元/月），不料读研后阿里云翻脸不认人，说本科的学生优惠到期啦、不能改学校认证啦什么的，总而言之就是不能继续用阿里云的学生优惠了，阿里云就这样错失了一位今后的优质用户（T_T）。开学后本来想把博客迁移到腾讯云的学生优惠，但是一想研究生毕业后还得再次迁移很烦，就想到了比较一劳永逸（gayhub如果被墙了就当我没说 T_T）的建设方案：在GitHub上基于hexo搭建一个静态博客。总而言之呢，学生程序员党（一个字穷）呢要有自己的觉悟，逛逛B站、喝喝肥宅快乐水、用用免费服务就能很开(ren)心(ming)了（T_T）。接下来展示程序员蓐资本主义羊毛的正确打开方式。 环境配置 安装node.js 安装git。git和GitHub的配置可以参考 安装hexo1$ npm install -g hexo-cli]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Hexo;Next</tag>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F12%2F31%2Fhello-world%2F</url>
+    <title><![CDATA[Hello Hexo]]></title>
+    <url>%2F2018%2F12%2F31%2FHello-Hexo%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <categories>
         <category>Hexo</category>
-        <category>NexT</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
