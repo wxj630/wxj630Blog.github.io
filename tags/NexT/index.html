@@ -82,7 +82,7 @@
 <meta name="keywords" content="吴晓均;wxj630;个人博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="wxj630Blog">
-<meta property="og:url" content="http://yoursite.com/tags/Next/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/NexT/index.html">
 <meta property="og:site_name" content="wxj630Blog">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
@@ -116,13 +116,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/Next/">
+  <link rel="canonical" href="http://yoursite.com/tags/NexT/">
 
 
 
 
 
-  <title>标签: Next | wxj630Blog</title>
+  <title>标签: NexT | wxj630Blog</title>
   
 
 
@@ -301,7 +301,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>Next<small>标签</small>
+        <h1>NexT<small>标签</small>
         </h1>
       </div>
 
@@ -313,17 +313,17 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2019/01/02/Hexo+NexT搭建个人博客/" itemprop="url">
+            <a class="post-title-link" href="/2018/12/31/Hello-Hexo/" itemprop="url">
               
-                <span itemprop="name">Hexo+NexT搭建Github Pages个人博客</span>
+                <span itemprop="name">Hello Hexo</span>
               
             </a>
         
       </h2>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-01-02T22:54:17+08:00" content="2019-01-02">
-          01-02
+        <time class="post-time" itemprop="dateCreated" datetime="2018-12-31T13:47:38+08:00" content="2018-12-31">
+          12-31
         </time>
       </div>
 
@@ -479,6 +479,15 @@
   <span class="author" itemprop="copyrightHolder">wxj630</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">1.4k</span>
+  
 </div>
 
 
@@ -490,6 +499,35 @@
 
 
 
+
+<span id="sitetime"></span>
+<script language="javascript">
+  function siteTime(){
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000;
+    var minutes = seconds * 60;
+    var hours = minutes * 60;
+    var days = hours * 24;
+    var years = days * 365;
+    var today = new Date();
+    var todayYear = today.getFullYear();
+    var todayMonth = today.getMonth()+1;
+    var todayDate = today.getDate();
+    var todayHour = today.getHours();
+    var todayMinute = today.getMinutes();
+    var todaySecond = today.getSeconds();
+    var t1 = Date.UTC(2018,06,07,12,00,00); // 设置建立网站的时间
+    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+    var diff = t2-t1;
+    var diffYears = Math.floor(diff/years);
+    var diffDays = Math.floor((diff/days)-diffYears*365);
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+    document.getElementById("sitetime").innerHTML=" 已运行"+diffYears+" 年 "diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
+  }
+  siteTime();
+</script>
 
         
 <div class="busuanzi-count">
@@ -1113,6 +1151,13 @@
     //微信二维码点击背景关闭
     $('body').delegate('.-mob-share-weixin-qrcode-bg','click', function(){
          $(".-mob-share-weixin-qrcode-close").trigger("click");
+    }); 
+</script>
+
+
+</body>
+</html>
+click");
     }); 
 </script>
 
